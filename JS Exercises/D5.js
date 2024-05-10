@@ -65,17 +65,39 @@ for (let index = 0; index < cars.length; index++) {
   secondObject.licensePlate = "Ef555";
   thirdObject.licensePlate = "AC1312";
 }
-console.log(cars);
+/* console.log(cars); */
 /* console.log(cars); */
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+const newObject = {
+  brand: "Fiat",
+  model: "600",
+  color: "Blue",
+  licensePlate: "AA123",
+  trims: ["punctured", "smooth"],
+};
+cars.push(newObject);
 
+for (let index = 0; index < cars.length; index++) {
+  delete cars[0].trims[2];
+  delete cars[1].trims[1];
+  delete cars[2].trims[2];
+  delete cars[3].trims[1];
+}
+/* console.log(cars);
+ */
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
+for (let index = 0; index < cars.length; index++) {
+  const firsTrimsElement = cars[index].trims[0];
+
+  justTrims.push(firsTrimsElement);
+}
+/* console.log(justTrims); */
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
