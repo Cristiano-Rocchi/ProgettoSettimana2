@@ -11,13 +11,6 @@
 
 
 
-
-
-
-#prova{
-    padding-top: 10em;
-    width: 30.5em;
-}
 nav a{
     font-family: Helvetica;
   font-size: 1.5em;
@@ -28,3 +21,53 @@ nav a{
 nav {background-color: #364759;
     height: 2.5em;
     padding-top: 1em;}
+
+main{
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#sect1{
+    background-color: #f56400;
+    color: white;
+    font-size: 2em;
+    height: 1.5em;
+    margin-top: 2em;
+}
+#sect1 h1{
+    padding-top: 0.25em;
+}
+
+#sect2{
+    color: white;
+    font-family: arial;
+    
+
+}
+#sect2 div{
+    background-image: url(../images/bg-image.png);
+    height: 12em;
+    width: 100%;
+    background-position: center;
+    
+    background-size: contain;
+  }
+  #sect2 h1{
+    font-size: 3em;
+    padding-top: 1em;
+    font-weight: 600;
+  }
+  #sect2 h2{
+    font-size:1.5em;
+    padding-top: 1em;
+    font-weight: 300;
+  }
+    
+    
+
+
+#prova{
+    width: 28em;
+    padding-top: 10em;
+
+}
