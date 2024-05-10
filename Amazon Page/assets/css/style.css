@@ -1,0 +1,30 @@
+#logo{
+    background-color: #222f3f;
+    height: 5em;
+}
+#img{
+    display: inline;
+    width: 10em;padding-top: 0.7em;
+    padding-left: 2em;
+  
+}
+
+
+
+
+
+
+#prova{
+    padding-top: 10em;
+    width: 30.5em;
+}
+nav a{
+    font-family: Helvetica;
+  font-size: 1.5em;
+  padding-left: 1em;
+  color: white;
+  text-decoration: none;
+}
+nav {background-color: #364759;
+    height: 2.5em;
+    padding-top: 1em;}
