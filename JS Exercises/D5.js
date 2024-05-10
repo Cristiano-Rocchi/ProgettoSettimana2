@@ -11,15 +11,21 @@ REGOLE
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
+/* for (let index = 0; index < pets.length; index++) {
+  console.log(pets[index]);
+}  */
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
+const ordinPets = pets.sort();
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
-
+const invertPets = pets.reverse();
+/* console.log(invertPets);
+ */
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
