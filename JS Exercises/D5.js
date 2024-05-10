@@ -103,6 +103,13 @@ for (let index = 0; index < cars.length; index++) {
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+for (let index = 0; index < cars.length; index++) {
+  if (cars[index].color[0] === "b") {
+    console.log("Fizz");
+  } else {
+    console.log("buzz");
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -110,10 +117,14 @@ for (let index = 0; index < cars.length; index++) {
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+let index = 0;
+while (numericArray[index] !== 32 && index < numericArray.length) {
+  console.log(numericArray[index]);
+  index = index + 1;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ["g", "n", "u", "z", "d"];
