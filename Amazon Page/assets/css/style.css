@@ -85,6 +85,7 @@ main{
   border-radius: 1.5em;
   text-align: center;
   padding-left: 1em;
+  display: inline-block;
 
 }
 #sect3{
@@ -111,4 +112,11 @@ main{
     width: 28em;
     padding-top: 10em;
 
+}
+#art3 img{
+    box-shadow: 6px 11px 11px 1px #B8B8B8;
+}
+#sect4{
+    height: 682px;
+    padding-top: 2.5em;
 }
